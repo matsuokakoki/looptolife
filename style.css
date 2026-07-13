@@ -465,10 +465,7 @@ nav a:focus-visible::after {
   background: var(--navy);
 }
 
-.info-card-dark h3,
-.info-card-dark p {
-  color: var(--white);
-}
+
 
 .card-number {
   position: absolute;
@@ -508,7 +505,10 @@ nav a:focus-visible::after {
   max-width: 540px;
   color: var(--muted);
 }
-
+.info-card-dark h3,
+.info-card-dark p {
+  color: var(--white);
+}
 .solution {
   color: var(--white);
   background:
