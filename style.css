@@ -1088,3 +1088,283 @@ footer {
     text-align: left;
   }
 }
+/* ==========================
+   Ecobrick Guide
+========================== */
+
+.ecobrick-guide {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(62, 155, 84, 0.1), transparent 25%),
+    linear-gradient(180deg, #fffdf8 0%, #f5faf5 100%);
+}
+
+.ecobrick-heading {
+  max-width: 820px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.ecobrick-poster {
+  margin: 0;
+  padding: 14px;
+  border-radius: 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: 0 22px 60px rgba(10, 33, 69, 0.14);
+  overflow: hidden;
+}
+
+.ecobrick-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+
+
+
+.instagram-video-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  min-height: 56px;
+  padding: 0 28px;
+  border-radius: 999px;
+  color: #ffffff;
+  background:
+    linear-gradient(
+      135deg,
+      #833ab4 0%,
+      #c13584 35%,
+      #e1306c 60%,
+      #f77737 100%
+    );
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  box-shadow:
+    0 14px 34px rgba(193, 53, 132, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease;
+}
+
+.instagram-button-icon {
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.instagram-button-dot {
+  fill: currentColor;
+  stroke: none;
+}
+
+.instagram-video-button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -60%;
+  left: -35%;
+  width: 34%;
+  height: 220%;
+  background: rgba(255, 255, 255, 0.28);
+  transform: rotate(24deg);
+  transition: left 420ms ease;
+}
+
+.instagram-video-button:hover,
+.instagram-video-button:focus-visible {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow:
+    0 20px 44px rgba(193, 53, 132, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.36);
+  filter: saturate(1.08);
+}
+
+.instagram-video-button:hover::after,
+.instagram-video-button:focus-visible::after {
+  left: 115%;
+}
+
+.instagram-video-button:active {
+  transform: translateY(-1px) scale(0.99);
+}
+
+.activity-text .instagram-video-button {
+  margin-top: 26px;
+}
+
+@media (max-width: 520px) {
+  .instagram-video-button {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.dos-donts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 42px;
+}
+
+.guide-card {
+  padding: 32px;
+  border-radius: 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 44px rgba(10, 33, 69, 0.08);
+}
+
+.guide-card-do {
+  border-top: 7px solid var(--green);
+}
+
+.guide-card-dont {
+  border-top: 7px solid var(--orange);
+}
+
+.guide-card-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.guide-card-title h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.guide-icon {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 1.55rem;
+  font-weight: 900;
+}
+
+.guide-card-do .guide-icon {
+  background: var(--green);
+}
+
+.guide-card-dont .guide-icon {
+  background: var(--orange);
+}
+
+.guide-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-list li {
+  position: relative;
+  padding: 0 0 15px 30px;
+  color: var(--muted);
+}
+
+.guide-list li:last-child {
+  padding-bottom: 0;
+}
+
+.guide-list li::before {
+  position: absolute;
+  left: 0;
+  top: 0.02em;
+  font-weight: 900;
+}
+
+.guide-card-do .guide-list li::before {
+  content: "✓";
+  color: var(--green-dark);
+}
+
+.guide-card-dont .guide-list li::before {
+  content: "×";
+  color: var(--orange);
+}
+
+.safety-card {
+  margin-top: 24px;
+  padding: 28px 32px;
+  border-radius: 24px;
+  color: #4d3b08;
+  background: #fff5c7;
+  border: 1px solid rgba(180, 132, 0, 0.22);
+}
+
+.safety-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.safety-heading span {
+  font-size: 1.7rem;
+}
+
+.safety-heading h3 {
+  margin: 0;
+  color: #5b4300;
+  font-size: 1.45rem;
+}
+
+.safety-card ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 36px;
+  margin: 18px 0 0;
+  padding-left: 22px;
+}
+
+@media (max-width: 820px) {
+  .dos-donts-grid,
+  .safety-card ul {
+    grid-template-columns: 1fr;
+  }
+
+  .ecobrick-poster {
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .ecobrick-poster img {
+    border-radius: 13px;
+  }
+}
+
+@media (max-width: 520px) {
+  .guide-card,
+  .safety-card {
+    padding: 24px 20px;
+  }
+}
