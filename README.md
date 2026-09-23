@@ -1,5 +1,6 @@
 # Loop2Life website
 
+A static website presenting Loop2Life, a student initiative in Laos that aims to reuse plastic waste in ecobricks and school furniture while supporting environmental education. The site communicates the project and its goals; figures shown are targets, not verified outcomes.
 Loop2Lifeは、ラオスでプラスチック廃棄物をエコブリックと学校用家具に活かし、環境教育へつなげる学生企画です。このrepoは企画を英語で伝える**静的Webサイト**の実装です。
 
 **Status:** Webサイトは公開中。サイトの数値は**目標**であり、現地ワークショップや家具製作の達成実績を示しません（2026-09-23時点）。  
