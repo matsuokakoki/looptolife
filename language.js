@@ -1,4 +1,5 @@
 const laoTranslations = {
+  "Explore Eco Activities": "ເບິ່ງກິດຈະກຳຮັກໂລກ",
   "Challenge": "ສິ່ງທ້າທາຍ",
   "Solution": "ວິທີແກ້ໄຂ",
   "Impact": "ຜົນກະທົບ",

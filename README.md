@@ -4,7 +4,7 @@ A static website presenting Loop2Life, a student initiative in Laos that aims to
 Loop2Lifeは、ラオスでプラスチック廃棄物をエコブリックと学校用家具に活かし、環境教育へつなげる学生企画です。このrepoは企画を英語で伝える**静的Webサイト**の実装です。
 
 **Status:** Webサイトは公開中。サイトの数値は**目標**であり、現地ワークショップや家具製作の達成実績を示しません（2026-09-23時点）。  
-**Stack:** HTML, CSS. JavaScript、ビルド処理、バックエンドはありません。  
+**Stack:** HTML, CSS, JavaScript。ビルド処理・バックエンドはありません。
 **Demo:** https://matsuokakoki.github.io/looptolife/
 
 ## Purpose and contribution
@@ -24,3 +24,7 @@ Loop2Lifeは、ラオスでプラスチック廃棄物をエコブリックと�
 ## Status and limitations
 
 ページには35人以上の研修、120–150個のエコブリック、20 kg以上のプラスチック回収等が**目標**として載っています。2026年後半以降のタイムラインは計画です。実施実績として引用する場合は、日付・実測・関係者の確認後に更新してください。建築用途での安全性や耐久性をこのWebサイトは検証していません。
+
+## Eco Activity Box
+
+`eco-activities/` に、ラオス語を初期表示とする英語切替対応の活動ページを追加しています。8種類の活動、10件のTikTok投稿（動画9件・写真1件）、準備・制作チェック、完了スタンプ、QRコード、印刷用ポスターがあります。詳細と更新方法は [`eco-activities/README.md`](eco-activities/README.md) を参照してください。
