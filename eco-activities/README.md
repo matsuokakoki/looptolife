@@ -9,8 +9,8 @@ Public path: https://matsuokakoki.github.io/looptolife/eco-activities/
 - Eight illustrated activities and ten supplied TikTok posts (nine video posts and one photo post).
 - Official TikTok iframe player; connected only when the visitor presses Load. Original short links and creator attribution are always available.
 - Ecobrick materials and four steps adapted from the existing Loop2Life project page. Other activities use explicitly labelled general preparation and workshop checklists, not unverified tutorial transcripts.
-- Browser-local language preference, checklist progress, completion stamps, and reduced-motion support.
-- Keyboard-accessible native dialog, keyboard tabs, category filters, responsive layout, deep links such as `#activity-ecobrick`.
+- Browser-local language preference, checklist progress, and reduced-motion support.
+- Keyboard-accessible native dialog, keyboard tabs, responsive layout, deep links such as `#activity-ecobrick`.
 - QR SVG pointing to the public path and bilingual A4 print layout at `print.html`.
 
 ## Maintenance
