@@ -29,7 +29,7 @@ for(const [key,value] of Object.entries(state.checks)){state.checks[key]=Array.i
 let filter='all',current=null,videoIndex=0,panel='prepare',toastTimer;
 const $=s=>document.querySelector(s);
 const dialog=$('#activity-dialog');
-function t(key,values={}){return Object.entries(values).reduce((s,[k,v])=>s.replaceAll(`{${k}}`,String(v)),copy[state.lang][key]);}
+function t(key,values={}){if(state.lang==='en'&&key==='results'&&values.n===1)return '1 activity';return Object.entries(values).reduce((s,[k,v])=>s.replaceAll(`{${k}}`,String(v)),copy[state.lang][key]);}
 function save(){try{localStorage.setItem(storageKey,JSON.stringify(state));return true;}catch{return false;}}
 function art(id){return `<svg viewBox="0 0 240 210" aria-hidden="true"><use href="assets/crafts.svg#${id}"></use></svg>`;}
 function tutorialText(a){return a.videos.length>1?t('tutorials',{n:a.videos.length}):t(a.photo?'photo':'video');}
